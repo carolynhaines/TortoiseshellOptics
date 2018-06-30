@@ -90,3 +90,52 @@ h1 {
   padding: 3rem 5rem 3rem 5rem;
     margin-right: -2rem;
 }
+
+
+/* Features Icons */
+
+.features {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 36rem;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;;
+  align-items: center;
+  width: 8rem;
+}
+
+.feature-image-area {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.feature p {
+  text-align: center;
+}
+
+.exams img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.fittings img {
+  width: 4.5rem;
+  height: auto;
+}
+
+.delivery img {
+  width: 4.5rem;
+  height: auto;
+}
