@@ -139,3 +139,51 @@ h1 {
   width: 4.5rem;
   height: auto;
 }
+
+
+/* Info Section */
+
+.info {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.info-column {
+  width: 46%;
+}
+
+.info h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: cadetblue;
+  display: block;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: azure;
+  width: 100%;
+  padding: 4rem;
+}
+
+.footer-content {
+  display: flex;
+}
+
+footer img {
+  height: 1.5rem;
+  width: auto;
+  margin-right: 1rem;
+}
