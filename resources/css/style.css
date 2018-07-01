@@ -27,6 +27,8 @@ h1 {
 }
 
 
+
+
 /* Hero Image */
 
 .hero {
@@ -54,7 +56,7 @@ h1 {
   margin-left: 2rem;
 }
 
-@media only screen and (min-width: 471px) {
+@media only screen and (min-width: 700px) {
   .mobile-nav {
     display: none;
   }
@@ -174,8 +176,7 @@ h1 {
 
 footer {
   background-color: azure;
-  width: 100%;
-  padding: 4rem;
+  padding: 4rem 0 4rem 4rem;
 }
 
 .footer-content {
@@ -186,4 +187,47 @@ footer img {
   height: 1.5rem;
   width: auto;
   margin-right: 1rem;
+}
+
+
+/* Tablet Size */
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%
+  }
+
+  .nav-bar {
+    top: 0;
+  }
+
+  .hero {
+    height: 22rem;
+  }
+
+  .tagline {
+    top: 5rem;
+  }
+
+  .tagline h1 {
+    padding: 1.75rem 4rem 1.75rem 4rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+  }
+
+  .features {
+    width: 68%;
+  }
+}
+
+/* Mobile Size */
+
+@media only screen and (max-width: 700px) {
+  .desk-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
 }
